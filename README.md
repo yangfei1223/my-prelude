@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![License GPL 3][badge-license]](http://www.gnu.org/licenses/gpl-3.0.txt)
 [![Gratipay Team](https://img.shields.io/gratipay/team/prelude.svg?maxAge=2592000)](https://gratipay.com/prelude/)
 
@@ -710,3 +711,7 @@ Cheers,<br/>
 [Bozhidar](https://twitter.com/bbatsov)
 
 [badge-license]: https://img.shields.io/badge/license-GPL_3-green.svg
+=======
+# my-prelude
+My config for bbatsov/prelude.
+>>>>>>> 3b8290277dbf203bb6b6fbae5c02b2e6fe3c2416
