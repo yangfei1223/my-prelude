@@ -2,6 +2,9 @@
 ;;    BETTER GLOBAL DEFAULTS SETTINGS
 ;;
 
+(key-chord-mode nil)
+(setq prelude-whitespace nil)
+
 ;;diabled ring bell
 (setq ring-bell-function 'ignore)
 
@@ -44,7 +47,7 @@
 (defun indent-buffer ()
   "Indent the currently visited buffer."
   (interactive)
-  (indent-region (point-min) (point-max)))  
+  (indent-region (point-min) (point-max)))
 
 (defun indent-region-or-buffer ()
   "Indent a region if selected,otherwise the whole buffer."

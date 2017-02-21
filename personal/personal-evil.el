@@ -106,10 +106,10 @@ to replace the symbol under cursor"
   (add-hook 'post-command-hook
 	    (lambda ()
 	      (let ((color (cond ((minibufferp) default-color)
-	         ;;	 ((evil-normal-state-p)  '("#006fa0" . "#ffffff"))
+                        	 ((evil-normal-state-p)  '("#444488" . "#ffffff"))
 				 ((evil-insert-state-p)  '("#e80000" . "#ffffff"))
-				 ((evil-visual-state-p)  '("#006fa0" . "#ffffff"))		
-				 ((evil-emacs-state-p)   '("#444488" . "#ffffff"))
+				 ((evil-visual-state-p)  '("#006fa0" . "#ffffff"))
+				 ;; ((evil-emacs-state-p)   '("#444488" . "#ffffff"))
 				 ((buffer-modified-p)    '("#006fa0" . "#ffffff"))
 				 (t default-color))))
 		(set-face-background 'mode-line (car color))
